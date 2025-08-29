@@ -1,0 +1,70 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# ---- Virtual Environments ----
+venv/
+ENV/
+env/
+.venv/
+.env/
+env.bak/
+
+# ---- Logs & DB ----
+*.log
+*.sqlite3
+db.sqlite3
+*.db
+
+# ---- IDE & Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Environment Files ----
+.env
+*.env
+
+# ---- Testing & Coverage ----
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ---- Jupyter Notebook ----
+.ipynb_checkpoints
+*.ipynb
+
+# ---- Docker ----
+*.pid
+*.seed
+*.bak
+docker-compose.override.yml
+
+# ---- Others ----
+*.bak
+*.tmp
+*.out
+*.retry
