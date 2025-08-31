@@ -9,7 +9,7 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.schema import Document
 from langchain.prompts import PromptTemplate
 import logging
-import numpy as np
+
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -26,7 +26,7 @@ if not OPENAI_API_KEY:
 
 # Initialize components
 embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
-llm = ChatOpenAI(temperature=0.7, model="gpt-3.5-turbo", openai_api_key=OPENAI_API_KEY)
+llm = ChatOpenAI(temperature=0.7, model="gpt-4o-mini", openai_api_key=OPENAI_API_KEY)
 
 def vector_to_db_format(vector):
     """Convert vector to PostgreSQL format"""
